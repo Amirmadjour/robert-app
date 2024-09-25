@@ -104,12 +104,10 @@ const latestBlogPosts = [
   },
 ];
 
-const GridCard = () => {
+const GridCard = ({ title }) => {
   return (
     <section id="latest" className="flex flex-col gap-12 px-10">
-      <h3 className="font-agbalumo text-primary text-5xl ">
-        Latest blog posts
-      </h3>
+      <h3 className="font-agbalumo text-primary text-5xl ">{title}</h3>
       <div className="w-full h-full grid grid-cols-3 grid-rows-3 gap-8">
         {latestBlogPosts.map((l) => (
           <Card

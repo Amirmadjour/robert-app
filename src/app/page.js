@@ -11,7 +11,6 @@ import { Button } from "@/components/ui/button";
 
 import Link from "next/link";
 import GridCard from "@/components/custom-ui/GridCard";
-import Footer from "@/components/custom-ui/Footer";
 
 import mobilePhone from "@/app/Assets/images/mobile-phone.png";
 import devices from "@/app/Assets/images/devices.png";
@@ -42,7 +41,7 @@ const categories = [
   { id: uuidv4(), src: toolBox, title: "Tools", href: "tools" },
   { id: uuidv4(), src: house, title: "Home care", href: "home" },
   { id: uuidv4(), src: storageBox, title: "Toys", href: "toys" },
-  { id: uuidv4(), src: devices, title: "Electronics", href: "Electronics" },
+  { id: uuidv4(), src: devices, title: "Electronics", href: "electronics" },
 ];
 
 const exclusive_deals = [
@@ -99,8 +98,8 @@ export default async function Home() {
   const products = await fetchData();
 
   return (
-    <div className="w-screen h-screen flex flex-col">
-      <main className="w-screen h-fit flex flex-col items-center justify-center gap-12">
+    <main className="w-screen h-fit flex flex-col">
+      <div className="w-screen h-fit flex flex-col items-center justify-center gap-12">
         <section
           id="home"
           className="w-full flex flex-col items-start justify-center gap-10 px-10"
@@ -224,17 +223,15 @@ export default async function Home() {
                     " bg-primary rounded-full text-background py-2 px-3 font-agbalumo gap-2 text-[12px]"
                   )}
                 >
-                  <p>{d.price}$</p>
+                  <p>{d.price} at</p>
                   <AmazonLogo />
                 </div>
               </Card>
             ))}
           </div>
         </section>
-        <GridCard />
-        <Footer />
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center"></footer>
-    </div>
+        <GridCard title="Latest blog posts" />
+      </div>
+    </main>
   );
 }

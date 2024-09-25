@@ -52,6 +52,7 @@ module.exports = {
         },
         custom: {
           gray: {
+            900: "hsl(var(--gray-900))",
             600: "hsl(var(--gray-600))",
             500: "hsl(var(--gray-500))",
             200: "hsl(var(--gray-200))",
@@ -66,6 +67,7 @@ module.exports = {
       fontFamily: {
         agbalumo: ["var(--font-agbalumo)"],
         roboto: ["var(--font-roboto)"],
+        inter: ["var(--font-inter)"],
       },
     },
   },

@@ -11,7 +11,9 @@ import Logo from "@/app/Assets/svg/Logo";
 const Nav = () => {
   return (
     <div className="w-full flex items-center justify-between px-10 py-6">
-      <Logo />
+      <Link className="flex w-fit h-fit items-center justify-center" href="/">
+        <Logo />
+      </Link>
       <div className="flex items-center justify-center gap-[25px] ">
         <Link href="/about" className="font-agbalumo">
           About Us
