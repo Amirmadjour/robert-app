@@ -9,13 +9,27 @@ import {
 } from "@/components/ui/card";
 import Image from "next/image";
 import { Dot } from "lucide-react";
-import exclusive_img_4 from "@/app/Assets/images/telecomande.png";
+
+import electronics_1 from "@/app/Assets/images/electronics_1.jpg";
+import electronics_2 from "@/app/Assets/images/electronics_2.avif";
+import electronics_3 from "@/app/Assets/images/electronics_3.jpg";
+import electronics_4 from "@/app/Assets/images/electronics_4.webp";
+
+import forniture_1 from "@/app/Assets/images/forniture_1.webp";
+import forniture_2 from "@/app/Assets/images/forniture_2.avif";
+import forniture_3 from "@/app/Assets/images/forniture_3.webp";
+import forniture_4 from "@/app/Assets/images/forniture_4.avif";
+
+import tools_1 from "@/app/Assets/images/tools_1.png";
+import tools_2 from "@/app/Assets/images/tools_2.jpeg";
+import tools_3 from "@/app/Assets/images/tools_3.jpg";
+import tools_4 from "@/app/Assets/images/tools_4.jpeg";
 
 const latestBlogPosts = [
   {
     id: uuidv4(),
     category: "Category",
-    img: exclusive_img_4,
+    img: electronics_1,
     title: "Blog title heading will go here",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
@@ -25,7 +39,7 @@ const latestBlogPosts = [
   {
     id: uuidv4(),
     category: "Category",
-    img: exclusive_img_4,
+    img: electronics_2,
     title: "Blog title heading will go here",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
@@ -35,7 +49,7 @@ const latestBlogPosts = [
   {
     id: uuidv4(),
     category: "Category",
-    img: exclusive_img_4,
+    img: electronics_3,
     title: "Blog title heading will go here",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
@@ -45,7 +59,7 @@ const latestBlogPosts = [
   {
     id: uuidv4(),
     category: "Category",
-    img: exclusive_img_4,
+    img: electronics_4,
     title: "Blog title heading will go here",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
@@ -55,7 +69,7 @@ const latestBlogPosts = [
   {
     id: uuidv4(),
     category: "Category",
-    img: exclusive_img_4,
+    img: forniture_1,
     title: "Blog title heading will go here",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
@@ -65,7 +79,7 @@ const latestBlogPosts = [
   {
     id: uuidv4(),
     category: "Category",
-    img: exclusive_img_4,
+    img: forniture_2,
     title: "Blog title heading will go here",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
@@ -75,7 +89,7 @@ const latestBlogPosts = [
   {
     id: uuidv4(),
     category: "Category",
-    img: exclusive_img_4,
+    img: forniture_3,
     title: "Blog title heading will go here",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
@@ -85,7 +99,7 @@ const latestBlogPosts = [
   {
     id: uuidv4(),
     category: "Category",
-    img: exclusive_img_4,
+    img: forniture_4,
     title: "Blog title heading will go here",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
@@ -95,7 +109,7 @@ const latestBlogPosts = [
   {
     id: uuidv4(),
     category: "Category",
-    img: exclusive_img_4,
+    img: tools_1,
     title: "Blog title heading will go here",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",

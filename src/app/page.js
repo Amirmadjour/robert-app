@@ -70,7 +70,7 @@ export default async function Home() {
                     products[0].fields.productImage[0].fields.file.url
                   }
                   alt=""
-                  className="w-full max-h-[400px] object-fit rounded-2xl"
+                  className="w-full max-h-[400px] object-cover rounded-2xl"
                 />
               </CardContent>
               <CardHeader className="p-0 ">
@@ -93,7 +93,7 @@ export default async function Home() {
                 <CardContent className="shrink-0 w-fit h-fit">
                   <img
                     src={"https:" + p.fields.productImage[0].fields.file.url}
-                    className="rounded-2xl aspect-square w-[250px] object-fit"
+                    className="rounded-2xl aspect-square w-[250px] object-cover"
                     alt=""
                   />
                 </CardContent>
