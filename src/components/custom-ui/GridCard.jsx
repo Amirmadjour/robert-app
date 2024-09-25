@@ -106,7 +106,7 @@ const latestBlogPosts = [
 
 const GridCard = () => {
   return (
-    <div className="flex flex-col gap-12 px-10">
+    <section id="latest" className="flex flex-col gap-12 px-10">
       <h3 className="font-agbalumo text-primary text-5xl ">
         Latest blog posts
       </h3>
@@ -142,7 +142,7 @@ const GridCard = () => {
           </Card>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

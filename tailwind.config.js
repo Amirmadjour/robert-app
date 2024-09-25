@@ -50,6 +50,13 @@ module.exports = {
           4: "hsl(var(--chart-4))",
           5: "hsl(var(--chart-5))",
         },
+        custom: {
+          gray: {
+            600: "hsl(var(--gray-600))",
+            500: "hsl(var(--gray-500))",
+            200: "hsl(var(--gray-200))",
+          },
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

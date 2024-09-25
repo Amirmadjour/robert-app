@@ -101,7 +101,10 @@ export default async function Home() {
   return (
     <div className="w-screen h-screen flex flex-col">
       <main className="w-screen h-fit flex flex-col items-center justify-center gap-12">
-        <div className="w-full flex flex-col items-start justify-center gap-10 px-10">
+        <section
+          id="home"
+          className="w-full flex flex-col items-start justify-center gap-10 px-10"
+        >
           <h2 className="font-agbalumo text-primary text-5xl">
             Featured blog posts
           </h2>
@@ -158,8 +161,8 @@ export default async function Home() {
               </Card>
             ))}
           </div>
-        </div>
-        <div className="w-full h-fit flex flex-col items-center justify-center gap-12">
+        </section>
+        <section className="w-full h-fit flex flex-col items-center justify-center gap-12">
           <h3 className="font-agbalumo text-primary text-3xl">Categories</h3>
           <div className="w-full flex items-center justify-evenly">
             {categories.map((c) => (
@@ -173,8 +176,11 @@ export default async function Home() {
               </Link>
             ))}
           </div>
-        </div>
-        <div className="w-full h-fit flex flex-col items-center justify-center gap-12">
+        </section>
+        <section
+          id="exclusive-deals"
+          className="w-full h-fit flex flex-col items-center justify-center gap-12"
+        >
           <div className="w-full flex justify-between items-center px-10">
             <h3 className="font-agbalumo text-primary text-5xl ">
               Exclusive deals
@@ -224,7 +230,7 @@ export default async function Home() {
               </Card>
             ))}
           </div>
-        </div>
+        </section>
         <GridCard />
         <Footer />
       </main>

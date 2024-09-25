@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import Search from "@/app/Assets/svg/Search";
 import ConfirmSearch from "@/app/Assets/svg/ConfirmSearch";
-import Logo from "../../app/Assets/svg/Logo";
+import Logo from "@/app/Assets/svg/Logo";
 
 const Nav = () => {
   return (
