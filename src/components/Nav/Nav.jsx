@@ -10,7 +10,7 @@ import Logo from "../../app/Assets/svg/Logo";
 
 const Nav = () => {
   return (
-    <div className="w-full flex items-center justify-between max-w-[1280px] py-6">
+    <div className="w-full flex items-center justify-between px-10 py-6">
       <Logo />
       <div className="flex items-center justify-center gap-[25px] ">
         <Link href="/about" className="font-agbalumo">
