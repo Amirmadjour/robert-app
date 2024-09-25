@@ -86,3 +86,13 @@
 html {
   scroll-behavior: smooth;
 }
+
+.img-slider-img {
+  width: calc((100% - 97px) / 4);
+}
+
+@media not (prefers-reduced-motion) {
+  .img-slider-img {
+    transition: translate 300ms ease-in-out;
+  }
+}

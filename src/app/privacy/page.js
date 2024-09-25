@@ -3,7 +3,9 @@ const PrivacyPolicy = () => {
     <section className="flex flex-col items-center justify-center font-inter">
       <section className="py-24 flex flex-col w-full max-w-[720px] gap-6">
         <div className="w-full h-fit flex flex-col items-center justify-center gap-3">
-          <p className="text-primary text-base">Current as of 20 Jan 2024</p>
+          <p className="text-primary text-base font-semibold">
+            Current as of 20 Jan 2024
+          </p>
           <h2 className="text-5xl font-semibold">Privacy Policy</h2>
         </div>
         <p className="text-xl text-custom-gray-600 text-center">
